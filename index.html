@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Component Practice</title>
     <style>
+      button {
+        background-color: #000000;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
       h1 {
         text-align: center;
         color: #fff;
@@ -21,9 +36,14 @@
   <body>
     <h1>Web Component Practice with <span>My Guru HM Nayem</span></h1>
 
-    <button>Let's Go and Start</button>
-
-    <my-button>Let's Go and Start</my-button>
+    <div class="">
+      <h3>HTML Button</h3>
+      <button>Let's Go and Start</button>
+    </div>
+    <div class="">
+      <h3>Custom Button</h3>
+      <my-button>Let's Go and Start</my-button>
+    </div>
 
     <script src="script.js"></script>
   </body>
